@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="mystyle.css" class="css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .mylogo {
+      margin: 0 auto;
+      background-color: #331d2c;
+    }
+
+    .mylogo img {
+      width: 25%; 
+      margin: 19px auto;
+      display: block;
+    }
+
+    .mainline {
+      margin-top: 20px;
+    }
+
+    .mainline h2 {
+      font-size: 24px;
+      font-family: "Crimson Text", serif;
+    }
+
+    .btnadd {
+      background-color: #1F6E8C;
+      color: white;
+    }
+
+    .btnadd:hover {
+      opacity: 0.7;
+    }
+
+    .fontsize {
+      font-size: 16px;
+    }
+
+    .mt {
+      margin-top: 20px;
+      font-size: 16px;
+      font-family: "Crimson Text", serif;
+      font-style: italic;
+    }
+
+    .fa {
+      padding: 8px;
+      font-size: 24px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px -10px;
+    }
+
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+    .fa-facebook {
+      background: #3b5998;
+      color: white;
+    }
+
+    .fa-twitter {
+      background: #55acee;
+      color: white;
+    }
+
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+
+    .fontfami {
+      font-family: "Crimson Text", serif;
+      font-size: 28px;
+    }
+
+    /* Media Queries for responsiveness */
+    @media (max-width: 768px) {
+      .mylogo {
+        width: 100%;
+        height: 150px;
+      }
+
+      .mylogo img {
+        width: 34%;
+        margin: 19px auto;
+      }
+
+      .mainline h2 {
+        font-size: 20px;
+      }
+
+      .fontsize,
+      .mt {
+        font-size: 14px;
+      }
+
+      .fa {
+        font-size: 20px;
+      }
+
+      .fontfami {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="card mylogo">
+      <img src="image1.png" class="card-img-top" alt="...">
+    </div>
+    <div class="mainline text-center">
+      <p>CONFIRM YOUR EMAIL</p>
+      <h2>Thanks for Registering with Ellevest!</h2>
+      <p class="mt-4 fontsize">
+        We're excited for you to dream big, invest smart and reach your
+        biggest goals.
+      </p>
+      <p class="fontsize">Now, let's complete your registering</p>
+      <button type="button" class="btn btn-lg btnadd mt-4">
+        CONFIRM EMAIL ADDRESS
+      </button>
+      <p class="mt">Thanks,</p>
+      <h3 class="mb-5 fontfami">The Ellevest Team</h3>
+    </div>
+    <footer class="text-center bg-body-tertiary">
+      <div class="container pt-4">
+        <section class="mb-4">
+          <button class="btn"><i class="fa fa-facebook rounded-circle"></i></button>
+          <button class="btn"><i class="fa fa-twitter rounded-circle"></i></button>
+          <button class="btn"><i class="fa fa-instagram rounded-circle"></i></button>
+          <button class="btn"><i class="fa fa-linkedin rounded-circle"></i></button>
+        </section>
+        <a class="text-body" href="#">© 2018 Ellevest Inc:</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
